@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-UNIX O emulador de terminal Linux</title>
+    <script>
+        function open() {
+            window.open("Terminal.html");
+        }
+    </script> 
     <style>
         body {
             background-color: rgb(127, 185, 127);
@@ -13,12 +18,30 @@
             color: black;
             text-indent: 5px;
         }
+
+        div#open {
+            background-color: black;
+            color: rgb(127, 185, 127);
+        }
+
+        a#inf {
+            text-decoration: underline;
+            color: blue;
+        }
     </style>
 </head>
 <body>
     <header id="cabecalho">
         <h1>JS-UNIX</h1>
+        <p>Um Emulador de terminal Linux com comandos Limitado</p>
     </header>
-    
+    <div id="open"> Abrir o Terminal </div>
+    <p>Mais informações ná página <a id="inf">aqui</a></p>
+    <footer>
+        <p>&copy; 2024 Arthur Henrique Schlikmann</p>
+        <p>Em Desenvolvimento!</p>
+        <p>GitHub: <a href="https://github.com/ArthurHenriqueSchlikmann">ArthurHenriqueSchlikmann</a></p>
+        <p>Projeto: <a href="https://github.com/ArthurHenriqueSchlikmann/JS-Unix">GitHub</a></p>
+    </footer>
 </body>
 </html>
