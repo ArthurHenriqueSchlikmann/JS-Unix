@@ -1,5 +1,5 @@
 [
     {
-        "comandos" : [""]
+        "comandos" : ["help", "welcome"]
     }
 ]
